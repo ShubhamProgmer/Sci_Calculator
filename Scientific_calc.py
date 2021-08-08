@@ -20,8 +20,8 @@ while 1:
 	if a == 1:
 		while 1:
 			try:
-				b = int(input("1st number to add: "))
-				c = int(input("2nd number to add: "))
+				b = float(input("1st number to add: "))
+				c = float(input("2nd number to add: "))
 				break
 			except Exception as e:
 				print("You are requested to provide NUMBERS!")
@@ -32,8 +32,8 @@ while 1:
 	elif a == 2:
 		while 1:
 			try:
-				b = int(input("1st number to subtract: "))
-				c = int(input("2nd number to subtract: "))
+				b = float(input("1st number to subtract: "))
+				c = float(input("2nd number to subtract: "))
 				break
 			except Exception as e:
 				print("You are requested to provide NUMBERS!")
@@ -44,8 +44,8 @@ while 1:
 	elif a == 3:
 		while 1:
 			try:
-				b = int(input("1st number to multiply: "))
-				c = int(input("2nd number to multiply: "))
+				b = float(input("1st number to multiply: "))
+				c = float(input("2nd number to multiply: "))
 				break
 			except Exception as e:
 				print("You are requested to provide NUMBERS!")
@@ -56,8 +56,8 @@ while 1:
 	elif a == 4:
 		while 1:
 			try:
-				b = int(input("1st number to divide: "))
-				c = int(input("2nd number to divide: "))
+				b = float(input("1st number to divide: "))
+				c = float(input("2nd number to divide: "))
 				break
 			except Exception as e:
 				print("You are requested to provide VALID NUMBERS!")
@@ -68,7 +68,7 @@ while 1:
 	elif a == 5:
 		while 1:
 			try:
-				b = int(input("Enter number of which you want square root: "))
+				b = float(input("Enter number of which you want square root: "))
 				break
 			except Exception as e:
 				print("You are requested to provide NUMBERS!")
@@ -92,7 +92,7 @@ while 1:
 			 if b == 1:
 			 		while 1:
 			 			try:
-			 				c = int(input("Please enter angle (in degrees) "))
+			 				c = float(input("Please enter angle (in degrees) "))
 		 					break
 			 			except Exception as error:
 			 				print("You must consider again that you are providing us ANGLE IN DEGREES")
@@ -105,7 +105,7 @@ while 1:
 			 elif b == 2:
 		 			while 1:
 		 				try:
-		 					c = int(input("Please enter angle (in degrees) "))
+		 					c = float(input("Please enter angle (in degrees) "))
 		 					break
 		 				except Exception as error:
 		 					print("You must consider again that you are providing us ANGLE IN DEGREES")
@@ -118,7 +118,7 @@ while 1:
 			 elif b == 3:
 		 			while 1:
 		 				try:
-		 					c = int(input("Please enter angle (in degrees) "))
+		 					c = float(input("Please enter angle (in degrees) "))
 		 					break
 		 				except Exception as error:
 		 					print("You must consider again that you are providing us ANGLE IN DEGREES")
@@ -133,7 +133,7 @@ while 1:
 			 elif b == 4:
 		 			while 1:
 		 				try:
-		 					c = int(input("Please enter angle (in degrees) "))
+		 					c = float(input("Please enter angle (in degrees) "))
 		 					break
 		 				except Exception as error:
 		 					print("You must consider again that you are providing us ANGLE IN DEGREES")
@@ -150,7 +150,7 @@ while 1:
 			 elif b == 5:
 		 			while 1:
 		 				try:
-		 					c = int(input("Please enter angle (in degrees) "))
+		 					c = float(input("Please enter angle (in degrees) "))
 		 					break
 		 				except Exception as error:
 		 					print("You must consider again that you are providing us ANGLE IN DEGREES")
@@ -168,7 +168,7 @@ while 1:
 			 elif b == 6:
 		 			while 1:
 		 				try:
-		 					c = int(input("Please enter angle (in degrees) "))
+		 					c = float(input("Please enter angle (in degrees) "))
 		 					break
 		 				except Exception as error:
 		 					print("You must consider again that you are providing us ANGLE IN DEGREES")
